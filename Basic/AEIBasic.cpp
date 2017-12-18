@@ -64,13 +64,12 @@ void minmaxValue() {
     std::cout << "long:\t\t" << LONG_MIN << " ... " << LONG_MAX << " (" << sizeof(long) << " bytes)\n";
     std::cout << "long long:\t" << LONG_LONG_MIN << " ... " << LONG_LONG_MAX << " (" << sizeof(long long) << " bytes)\n";
     std::cout << std::endl;
-    std::cout << "unsigned short: 0 ... " << USHRT_MAX << " (" << sizeof(unsigned short) << " bytes)\n";
-    std::cout << "unsigned int: 0 ... " << UINT_MAX << " (" << sizeof(unsigned int) << " bytes)\n";
-    std::cout << "unsigned long: 0 ... " << ULONG_MAX << " (" << sizeof(unsigned long) << " bytes)\n";
-    std::cout << "unsigned long long: 0 ... " << ULONG_LONG_MAX << " (" << sizeof(unsigned long long) << " bytes)\n";
+    std::cout << "unsigned short:\t\t0 ... " << USHRT_MAX << " (" << sizeof(unsigned short) << " bytes)\n";
+    std::cout << "unsigned int:\t\t0 ... " << UINT_MAX << " (" << sizeof(unsigned int) << " bytes)\n";
+    std::cout << "unsigned long:\t\t0 ... " << ULONG_MAX << " (" << sizeof(unsigned long) << " bytes)\n";
+    std::cout << "unsigned long long:\t0 ... " << ULONG_LONG_MAX << " (" << sizeof(unsigned long long) << " bytes)\n";
     std::cout << std::endl;
     std::cout << "float:\t\t\t" << std::numeric_limits<float>::min() << " ... " << std::numeric_limits<float>::max() << " (" << sizeof(float) << " bytes)\n";
     std::cout << "double:\t\t\t" << std::numeric_limits<double>::min() << " ... " << std::numeric_limits<double>::max() << " (" << sizeof(double) << " bytes)\n";
     std::cout << "long double:\t" << std::numeric_limits<long double>::min() << " ... " << std::numeric_limits<long double>::max() << " (" << sizeof(long double) << " bytes)\n";
 }
-

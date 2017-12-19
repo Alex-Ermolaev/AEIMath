@@ -22,6 +22,7 @@ ll phiphi(ll);
 
 //Help
 void minmaxValue();
+void printASCII(int, int, int);
 
 
 #endif //AEIMATH_AEIBASIC_H

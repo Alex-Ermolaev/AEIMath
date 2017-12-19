@@ -73,3 +73,17 @@ void minmaxValue() {
     std::cout << "double:\t\t\t" << std::numeric_limits<double>::min() << " ... " << std::numeric_limits<double>::max() << " (" << sizeof(double) << " bytes)\n";
     std::cout << "long double:\t" << std::numeric_limits<long double>::min() << " ... " << std::numeric_limits<long double>::max() << " (" << sizeof(long double) << " bytes)\n";
 }
+
+void printASCII(int from, int to, int colunms) {
+    std::cout << "ASCII code:\n";
+    int k = ceil(double(to-from+1) / colunms);
+    /*for (int i = from; i <= to; i++) {
+        std::cout << i << " : " << char(i) << std::endl;
+    }*/
+    for (int i = 0; i < k; i++) {
+        for (int j = 0; j < colunms; j++)
+            if (from+i*colunms+j <= to)
+                std::cout << from+i*colunms+j << " : " << char(from+i*colunms+j) << "\t\t";
+        std::cout << std::endl;
+    }
+}

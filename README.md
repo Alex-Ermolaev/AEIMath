@@ -1,2 +1,0 @@
-# AEIMath
-C++ lib

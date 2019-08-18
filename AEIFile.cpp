@@ -1,7 +1,7 @@
 //C++
 //AEIFile
 //Developed by Abionics
-//email: alex191099@gmail.com
+//email: abionics.dev@gmail.com
 
 #ifndef _ABIOTOPIA_AEIFile
 #define _ABIOTOPIA_AEIFile
